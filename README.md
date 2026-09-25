@@ -1,46 +1,193 @@
-# Web Developer Portfolio - Using HTML, CSS, Bootstrap & JS
+# 👋 Hi, I'm Akash S
 
-> See live demo: [https://vijay-singh.com](https://vijay-singh.com)    |  Feel free to use but **credit appreciated** and a **⭐** to repo ;)
+### Angular Developer | Software Engineer
 
-![Developer Portoflio](https://github.com/itsvijaysingh/My-Portfolio/blob/main/Developer%20Portolio%20Website.png)
+<p align="left">
+  <a href="https://akash0532003.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio">
+  </a>
+  <a href="https://www.linkedin.com/in/akash-s-81372a265/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/Akash0532003">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
 
+---
 
-Hi there! I'm Vijay, and this is my portfolio website code built with HTML, CSS, Bootstrap, and a touch of JavaScript. Let's dive into the features:
+## 👨‍💻 About Me
 
-> But, wait! Have any cool project ideas to share or need some work done? Just shoot me an email at hi@vijay-singh.com. Let's chat over a virtual coffee! 😊 And if you're wondering why you should consider working together, check out projects like **PfpFinder** (https://pfpfinder.com) (where you can find the best pfps - almost 50k+!), **Alt Text Generator** (https://alttext.tech/) (just upload an image to see what it is!), **Discord Lookup API** (https://github.com/itsvijaysingh/Discord-Lookup-API), and more! Check out my complete profile here: https://github.com/itsvijaysingh
+I'm a **Software Engineer with 3 years of professional experience** in developing real-time web and mobile applications.
 
-## **Portfolio Features:**
+I have hands-on experience across frontend development, backend development, REST API integration, payment gateway integration, authentication, database development, and application performance optimization.
 
-* **Light/Dark Modes Supported 🌙☀️:**  Switch effortlessly between light and dark themes. Your preference is saved, even after you close the page!
-* **Clean Code 👍:** Well-formatted and easy to follow. 
-* **Real-World Showcase 💻:** Check out my actual projects!
-* **Optimized for Speed 🚀:**  SEO metadata, prefetching, and deferring for a snappy experience.
-* **Testimonials ✅:** Genuine reviews from friends and developers.
-* **SEO Optimed** Just Replace The Content at <head>
-* **And More!** See the details below.
-  
-## **Technologies Used:**
+I'm currently focusing on **Angular development** and continuously expanding my knowledge of modern backend technologies, cloud technologies, and AI.
 
-* HTML, CSS, Bootstrap, JavaScript
-* Owl Carousel Library (for Testimonials)
-* jQuery (to support Owl Carousel)
-* AOS Library (for cool fade effects)
-* Fonts: Augustina, Rubik, Dancing Script
-* Bootstrap Icons
+- 💼 **3 Years of Professional Experience**
+- 🎯 Currently targeting **Angular Developer / Software Engineer** roles
+- 📱 Experience developing **web and mobile applications**
+- 🔐 Experience with **JWT authentication and secure REST APIs**
+- 💳 Experience integrating **payment gateways and webhooks**
+- 🔌 Experience integrating **external devices with mobile applications**
+- 🗄️ Experience with **MySQL, PostgreSQL, and SQL**
+- ⚡ Experience with **API and application performance optimization**
+- 📊 Experience with **JMeter load testing**
+- 🚀 **Available for immediate joining**
 
-## **Want to see it live? 👀**
+---
 
-* Visit: [https://vijay-singh.com/](https://vijay-singh.com/)
-* Or, explore the code on GitHub: [https://github.com/itsvijaysingh/My-Portfolio/](https://github.com/itsvijaysingh/My-Portfolio/)
+## 🛠️ Technical Skills
 
-## **Why This Web Developer Portfolio Stands Out**
+### Frontend
 
-* **User Experience Focus:**  The dual theme and speed optimizations show I care about delivering a great experience.
-* **Attention to Detail:** Thoughtful font selections and animations add a polished touch. 
-* **Real Projects:**  This isn't just about tech skills, it's about what I can build!  
+- Angular
+- Ionic
+- React
+- JavaScript
+- TypeScript
+- HTML5
+- CSS3
 
-## **Contact**
+### Backend
 
-Feel free to connect with me or leave feedback. I'm always learning and improving! 
+- Node.js
+- NestJS
+- PHP
+- Laravel
+- REST APIs
 
-> ~ [hi@vijay-singh.com](mailto:hi@vijay-singh.com)
+### Databases
+
+- MySQL
+- PostgreSQL
+- SQL
+
+### Authentication & Security
+
+- JWT
+- Bearer Token
+- Role-Based Authentication
+- Secure REST APIs
+
+### Payment Integration
+
+- Razorpay
+- CCAvenue
+- PayU
+- Payment Webhooks
+- Payment Validation
+
+### Performance & Testing
+
+- JMeter
+- API Optimization
+- Database Optimization
+- Lazy Loading
+- Concurrent User Testing
+
+### Other Technologies
+
+- Git
+- GitHub
+- Python – Fundamentals
+- AI – Foundational Knowledge
+- Java – Basic
+- C++ – Basic
+
+---
+
+# 🚀 Featured Projects
+
+## 🍱 Institution Food Ordering Application
+
+**Technology Stack:** Angular | Ionic | PHP | MySQL | JWT
+
+A real-time institutional food ordering application designed to simplify food ordering and order management.
+
+### Key Features
+
+- Developed real-time food ordering functionality.
+- Implemented secure authentication using JWT and security tokens.
+- Integrated payment gateway functionality.
+- Implemented payment and order-status webhooks.
+- Developed API integrations between frontend and backend.
+- Worked on real-time order status updates.
+- Designed responsive mobile interfaces using Ionic.
+- Worked on database development and API optimization.
+
+### Problems Solved
+
+- Simplified the food ordering process for institutional users.
+- Reduced manual order handling.
+- Improved real-time order tracking.
+- Integrated secure online payment processing.
+
+---
+
+## 👥 Placi5 – Alumni Job Referral Platform
+
+**Technology Stack:** Angular | Ionic | PHP | MySQL | Razorpay
+
+A mobile-first alumni job referral platform that connects alumni and users for job opportunities and referrals.
+
+### Key Features
+
+- Developed responsive mobile interfaces using Ionic.
+- Implemented role-based authentication for Users and Admins.
+- Integrated Razorpay payment functionality.
+- Developed REST API integrations.
+- Implemented database operations using MySQL.
+- Optimized APIs to improve application performance.
+- Performed load testing using JMeter.
+
+### Results
+
+- Improved application load time by approximately **20% through API optimization**.
+- Tested application performance under concurrent user loads.
+- Improved the overall responsiveness of the application.
+
+---
+
+# 💼 Professional Experience
+
+### Software Engineer
+
+**3 Years of Professional Experience**
+
+Worked on web and mobile application development involving:
+
+- Angular and Ionic application development.
+- React-based web application development.
+- REST API development and integration.
+- External device ↔ mobile application API integration.
+- Payment gateway integration.
+- JWT authentication and authorization.
+- Database development and optimization.
+- API performance optimization.
+- Application debugging and maintenance.
+- Load testing and performance analysis.
+- Development of reusable and modular application components.
+
+---
+
+# 🔐 Authentication & API Experience
+
+I have practical experience implementing secure API communication using:
+
+```text
+Frontend
+   ↓
+Login
+   ↓
+Authentication API
+   ↓
+JWT Token
+   ↓
+Bearer Token
+   ↓
+HTTP Interceptor
+   ↓
+Protected API
+   ↓
+Backend
