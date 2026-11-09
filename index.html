@@ -38,6 +38,68 @@
     <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+  /* Tools: same card and same logo size */
+  .tool {
+    height: 175px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tool-image {
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  .tool-name { margin-top: 12px; }
+
+  /* Skills: same logo size */
+  .skill-image {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: contain;
+  }
+
+  /* Projects: same card and same banner size */
+  .project-card { height: 100%; }
+  .project-card .banner-container {
+    height: 800px;
+    overflow: hidden;
+  }
+  .project-card .banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Results & Achievements: same card size */
+  #impact .card { height: 100%; }
+  #impact .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+/* Hero: start at the top, end at the social icons */
+#hero {
+  min-height: auto !important;
+  height: auto !important;
+  padding-top: 90px !important;      /* space for the navbar; lower it to move content higher */
+  padding-bottom: 30px !important;
+}
+#hero .about-content {
+  align-items: flex-start !important;
+}
+#hero .hero-portrait .pic {
+  height: 520px !important;          /* the photo now ends around the LinkedIn row; adjust to taste */
+  background-size: contain !important;
+  background-position: bottom center !important;
+  background-repeat: no-repeat !important;
+}
+</style>
+
     <!-- Preload Important resources -->
     <link rel="preload" href="assets/css/aos.css" as="style" >
     <link rel="preload" href="assets/css/owl.carousel.min.css" as="style" >
@@ -65,14 +127,14 @@
     <header id="header">
         <nav id="navbar" class="navbar navbar-expand-md">
             <div class="container">
-                <a href="/" class="navbar-brand logo">
+                <a href="#hero" class="navbar-brand logo">
                     <span><</span>
                     <span class="logo-name">Akash S</span>
                     <span>/></span>
                 </a>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarMenu">
                     <div class="offcanvas-header">
-                        <a href="/" class="offcanvas-title navbar-brand logo" id="offcanvasNavbarMenu" data-aos="fade-down" data-aos-delay="600">
+                        <a href="#hero" class="offcanvas-title navbar-brand logo" id="offcanvasNavbarMenu" data-aos="fade-down" data-aos-delay="600">
                             <span><</span>
                             <span class="logo-name">Akash S</span>
                             <span>/></span>
@@ -102,7 +164,8 @@
             <div class="row about-content">
                 <div class="col-lg-5 order-lg-2">
                     <div class="hero-portrait">
-                        <div class="pic" alt="profile image" data-aos="fade-up" data-aos-delay="600"></div>
+                        <!-- <div class="pic" alt="profile image" data-aos="fade-up" data-aos-delay="600"></div> -->
+                        <img src="assets/images/portrait.png" class="img-fluid hero-img" alt="Akash S profile image" data-aos="fade-up" data-aos-delay="600">
                     </div>
                 </div>
                 <div class="col-lg-7 order-lg-1 hero-content">
@@ -112,7 +175,7 @@
 
         <p class="experience">
             3 Years of Experience |
-            Angular â€¢ Ionic â€¢ React â€¢ TypeScript
+            Angular &bull; Ionic &bull; TypeScript &bull; Node.js &bull; NestJS &bull; PHP &bull; SQL &bull; PostgreSQL &bull; REST APIs &bull; JWT Authentication &bull; Payment Gateway Integration &bull; Database Optimization &bull; Application Performance
         </p>
                     <!-- <p class="tagline mb-3" data-aos="fade-up" data-aos-delay="600">Started <span class="underline">unintentionally</span> with core languages in 2023 â€” just exploring and learning along the way. Today, I <span class="underline">intentionally</span> craft beautiful designs and build responsive, user-friendly mobile apps and projects using modern frameworks â€” all with purpose and passion.</p> -->
                        <p class="description">
@@ -140,6 +203,7 @@
                     <div class="d-flex call-to-action">
                         <a href="#contact" data-aos="fade-up" data-aos-delay="700"><button type="button" class="btn me-4 primary-bg-btn"><i class="bi bi-envelope"></i> Contact Me</button></a>
                         <a href="#projects" data-aos="fade-up" data-aos-delay="800"><button type="button" class="btn btn-light secondary-bg-btn">View Portfolio <i class="bi bi-arrow-up-right-circle"></i></button></a>
+                       <a href="assets/Akash_S_Resume.pdf" download="Akash_S_Resume.pdf" data-aos="fade-up" data-aos-delay="900"><button type="button" class="btn btn-light secondary-bg-btn">Download Resume <i class="bi bi-download"></i></button></a>
                     </div>                    
                 </div>
             </div>
@@ -737,9 +801,9 @@
             <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="500">
                 <div class="col-lg-8">
                     <div class="contact-form">
-                        <form action="https://formspree.io/f/xldjelqg" method="POST">
-                            <div class="row g-2">
-                                <div class="col-md-6">
+<form id="contactForm" action="https://formspree.io/f/xldjelqg" method="POST" autocomplete="off">
+    <div class="row g-2">
+                                        <div class="col-md-6">
                                     <div class="form-group">
                                         <input type="text" class="form-control" id="name" name="name" placeholder="Name *" required>
                                     </div>
@@ -791,6 +855,36 @@
     <script src="assets/js/owl.carousel.min.js" defer></script>
     <script src="assets/js/bootstrap.min.js" defer></script>
     <script src="assets/js/script.js" defer></script>
+
+    <script>
+      if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
+      const form = document.getElementById('contactForm');
+
+      // Remember that a message was just sent (the page itself still goes to Formspree's thank-you page)
+      form.addEventListener('submit', () => {
+        try { sessionStorage.setItem('formSent', '1'); } catch (e) {}
+      });
+
+      function resetToTop() {
+        form.reset();                                                  // clear old data
+        history.replaceState(null, '', location.pathname + location.search); // remove #contact
+        window.scrollTo(0, 0);
+        setTimeout(() => window.scrollTo(0, 0), 100);                  // after the browser finishes restoring
+      }
+
+      window.addEventListener('pageshow', (e) => {
+        let sent = false;
+        try { sent = sessionStorage.getItem('formSent') === '1'; sessionStorage.removeItem('formSent'); } catch (err) {}
+
+        const nav = performance.getEntriesByType('navigation')[0];
+        const cameBack = e.persisted || (nav && nav.type === 'back_forward');
+
+        // Only reset when returning from the thank-you page,
+        // so links like yoursite/#projects still work normally
+        if (sent || cameBack) resetToTop();
+      });
+    </script>
 
 </body>
 </html>
